@@ -1,0 +1,11 @@
+Benchmark 1: echo y | npx create-react-app myapp-npx
+  Time (mean ± σ):     94.825 s ± 30.936 s    [User: 30.991 s, System: 9.876 s]
+  Range (min … max):   55.736 s … 149.989 s    15 runs
+
+Benchmark 2: bun create react myapp-bun
+  Time (mean ± σ):      5.579 s ±  0.952 s    [User: 5.260 s, System: 0.465 s]
+  Range (min … max):    4.434 s …  7.708 s    15 runs
+
+Summary
+  'bun create react myapp-bun' ran
+   17.00 ± 6.26 times faster than 'echo y | npx create-react-app myapp-npx'
