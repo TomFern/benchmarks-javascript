@@ -1,0 +1,133 @@
+Cloning into 'demo-bun'...
+remote: Enumerating objects: 1091, done.
+remote: Counting objects: 100% (364/364), done.
+remote: Compressing objects: 100% (124/124), done.
+remote: Total 1091 (delta 321), reused 251 (delta 237), pack-reused 727
+Receiving objects: 100% (1091/1091), 987.16 KiB | 2.65 MiB/s, done.
+Resolving deltas: 100% (582/582), done.
+bun install v0.1.4
+ + @cypress/webpack-preprocessor@4.1.5
+ + @types/redux-mock-store@1.0.3
+ + cypress@3.8.3
+ + redux-mock-store@1.5.4
+ + start-server-and-test@1.14.0
+ + ts-loader@5.4.5
+ + tslint@5.20.1
+ + typescript@3.9.10
+ + @material-ui/core@3.9.4
+ + @types/enzyme@3.10.12
+ + @types/enzyme-adapter-react-16@1.0.6
+ + @types/history@4.7.11
+ + @types/react-redux@7.1.24
+ + @types/react-router@4.4.5
+ + @types/react-router-dom@4.3.5
+ + @types/redux-actions@2.6.2
+ + @types/yup@0.26.37
+ + axios@0.21.4
+ + connected-react-router@6.9.3
+ + enzyme@3.11.0
+ + enzyme-adapter-react-16@1.15.6
+ + formik@1.5.8
+ + gh-pages@2.2.0
+ + history@4.10.1
+ + react@16.14.0
+ + react-dom@16.14.0
+ + react-redux@6.0.1
+ + react-test-renderer@16.14.0
+ + redux@4.2.0
+ + redux-devtools-extension@2.13.9
+ + redux-thunk@2.4.1
+ + reselect@4.1.6
+ + typesafe-actions@3.4.0
+
+ 986 packages installed [47.23s]
+Benchmark 1: cd demo-bun/src/client; bun remove webpack
+  Time (abs ≡):         2.244 s               [User: 0.011 s, System: 1.654 s]
+
+Benchmark 2: cd demo-bun/src/client; bun add webpack -d
+  Time (abs ≡):        801.3 ms               [User: 781.4 ms, System: 210.7 ms]
+
+Summary
+  'cd demo-bun/src/client; bun add webpack -d' ran
+    2.80 times faster than 'cd demo-bun/src/client; bun remove webpack'
+Benchmark 1: cd demo-bun/src/client; bun remove webpack
+  Time (abs ≡):        105.6 ms               [User: 8.9 ms, System: 91.3 ms]
+
+Benchmark 2: cd demo-bun/src/client; bun add webpack -d
+  Time (abs ≡):        122.1 ms               [User: 9.7 ms, System: 96.9 ms]
+
+Summary
+  'cd demo-bun/src/client; bun remove webpack' ran
+    1.16 times faster than 'cd demo-bun/src/client; bun add webpack -d'
+Benchmark 1: cd demo-bun/src/client; bun remove webpack
+  Time (abs ≡):        107.2 ms               [User: 9.0 ms, System: 93.3 ms]
+
+Benchmark 2: cd demo-bun/src/client; bun add webpack -d
+  Time (abs ≡):        104.1 ms               [User: 10.1 ms, System: 88.4 ms]
+
+Summary
+  'cd demo-bun/src/client; bun add webpack -d' ran
+    1.03 times faster than 'cd demo-bun/src/client; bun remove webpack'
+Benchmark 1: cd demo-bun/src/client; bun remove webpack
+  Time (abs ≡):        140.5 ms               [User: 11.4 ms, System: 114.1 ms]
+
+Benchmark 2: cd demo-bun/src/client; bun add webpack -d
+  Time (abs ≡):        116.5 ms               [User: 10.8 ms, System: 97.1 ms]
+
+Summary
+  'cd demo-bun/src/client; bun add webpack -d' ran
+    1.21 times faster than 'cd demo-bun/src/client; bun remove webpack'
+Benchmark 1: cd demo-bun/src/client; bun remove webpack
+  Time (abs ≡):        112.2 ms               [User: 9.5 ms, System: 96.8 ms]
+
+Benchmark 2: cd demo-bun/src/client; bun add webpack -d
+  Time (abs ≡):        112.3 ms               [User: 10.5 ms, System: 93.6 ms]
+
+Summary
+  'cd demo-bun/src/client; bun remove webpack' ran
+    1.00 times faster than 'cd demo-bun/src/client; bun add webpack -d'
+Benchmark 1: cd demo-bun/src/client; bun remove webpack
+  Time (abs ≡):        109.3 ms               [User: 9.2 ms, System: 95.3 ms]
+
+Benchmark 2: cd demo-bun/src/client; bun add webpack -d
+  Time (abs ≡):        103.0 ms               [User: 10.0 ms, System: 87.8 ms]
+
+Summary
+  'cd demo-bun/src/client; bun add webpack -d' ran
+    1.06 times faster than 'cd demo-bun/src/client; bun remove webpack'
+Benchmark 1: cd demo-bun/src/client; bun remove webpack
+  Time (abs ≡):        104.3 ms               [User: 8.9 ms, System: 90.0 ms]
+
+Benchmark 2: cd demo-bun/src/client; bun add webpack -d
+  Time (abs ≡):         99.7 ms               [User: 9.6 ms, System: 85.4 ms]
+
+Summary
+  'cd demo-bun/src/client; bun add webpack -d' ran
+    1.05 times faster than 'cd demo-bun/src/client; bun remove webpack'
+Benchmark 1: cd demo-bun/src/client; bun remove webpack
+  Time (abs ≡):        105.1 ms               [User: 9.1 ms, System: 91.1 ms]
+
+Benchmark 2: cd demo-bun/src/client; bun add webpack -d
+  Time (abs ≡):         97.9 ms               [User: 9.5 ms, System: 84.8 ms]
+
+Summary
+  'cd demo-bun/src/client; bun add webpack -d' ran
+    1.07 times faster than 'cd demo-bun/src/client; bun remove webpack'
+Benchmark 1: cd demo-bun/src/client; bun remove webpack
+  Time (abs ≡):        106.0 ms               [User: 9.2 ms, System: 91.3 ms]
+
+Benchmark 2: cd demo-bun/src/client; bun add webpack -d
+  Time (abs ≡):         97.1 ms               [User: 9.3 ms, System: 83.5 ms]
+
+Summary
+  'cd demo-bun/src/client; bun add webpack -d' ran
+    1.09 times faster than 'cd demo-bun/src/client; bun remove webpack'
+Benchmark 1: cd demo-bun/src/client; bun remove webpack
+  Time (abs ≡):        106.5 ms               [User: 9.0 ms, System: 91.4 ms]
+
+Benchmark 2: cd demo-bun/src/client; bun add webpack -d
+  Time (abs ≡):         99.2 ms               [User: 9.5 ms, System: 85.1 ms]
+
+Summary
+  'cd demo-bun/src/client; bun add webpack -d' ran
+    1.07 times faster than 'cd demo-bun/src/client; bun remove webpack'

@@ -10,6 +10,6 @@ nice -20 hyperfine  \
     "cd next-app; npm run build" \
     "cd next-app; bun run build" 
 
-# rm -rf next-app
+rm -rf next-app
 
 

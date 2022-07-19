@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# git clone https://github.com/oven-sh/bun.git
+git clone https://github.com/oven-sh/bun.git
 cd bun/bench/react-hello-world
 
 # bun: port 3000
@@ -30,4 +30,4 @@ sleep 1
 loadtest -k -c 8 -n 1000000 http://localhost:9080
 kill $pid
 
-# rm -rf bun
+rm -rf bun

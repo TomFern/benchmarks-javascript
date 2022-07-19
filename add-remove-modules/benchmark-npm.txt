@@ -1,0 +1,105 @@
+
+added 2336 packages, and audited 2337 packages in 1m
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+117 vulnerabilities (19 low, 41 moderate, 40 high, 17 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+Benchmark 1: cd demo-npm/src/client; npm remove webpack
+  Time (abs ≡):         4.629 s               [User: 6.028 s, System: 1.635 s]
+ 
+Benchmark 2: cd demo-npm-src/client; npm add --save-dev webpack
+  Time (abs ≡):         2.272 s               [User: 1.960 s, System: 0.226 s]
+ 
+Summary
+  'cd demo-npm-src/client; npm add --save-dev webpack' ran
+    2.04 times faster than 'cd demo-npm/src/client; npm remove webpack'
+Benchmark 1: cd demo-npm/src/client; npm remove webpack
+  Time (abs ≡):         4.412 s               [User: 5.747 s, System: 1.348 s]
+ 
+Benchmark 2: cd demo-npm-src/client; npm add --save-dev webpack
+  Time (abs ≡):         1.916 s               [User: 1.840 s, System: 0.204 s]
+ 
+Summary
+  'cd demo-npm-src/client; npm add --save-dev webpack' ran
+    2.30 times faster than 'cd demo-npm/src/client; npm remove webpack'
+Benchmark 1: cd demo-npm/src/client; npm remove webpack
+  Time (abs ≡):         4.261 s               [User: 5.767 s, System: 1.424 s]
+ 
+Benchmark 2: cd demo-npm-src/client; npm add --save-dev webpack
+  Time (abs ≡):         1.832 s               [User: 1.832 s, System: 0.208 s]
+ 
+Summary
+  'cd demo-npm-src/client; npm add --save-dev webpack' ran
+    2.33 times faster than 'cd demo-npm/src/client; npm remove webpack'
+Benchmark 1: cd demo-npm/src/client; npm remove webpack
+  Time (abs ≡):         4.147 s               [User: 5.737 s, System: 1.397 s]
+ 
+Benchmark 2: cd demo-npm-src/client; npm add --save-dev webpack
+  Time (abs ≡):         1.856 s               [User: 1.843 s, System: 0.207 s]
+ 
+Summary
+  'cd demo-npm-src/client; npm add --save-dev webpack' ran
+    2.23 times faster than 'cd demo-npm/src/client; npm remove webpack'
+Benchmark 1: cd demo-npm/src/client; npm remove webpack
+  Time (abs ≡):         4.245 s               [User: 5.760 s, System: 1.369 s]
+ 
+Benchmark 2: cd demo-npm-src/client; npm add --save-dev webpack
+  Time (abs ≡):         1.844 s               [User: 1.863 s, System: 0.195 s]
+ 
+Summary
+  'cd demo-npm-src/client; npm add --save-dev webpack' ran
+    2.30 times faster than 'cd demo-npm/src/client; npm remove webpack'
+Benchmark 1: cd demo-npm/src/client; npm remove webpack
+  Time (abs ≡):         4.223 s               [User: 5.763 s, System: 1.393 s]
+ 
+Benchmark 2: cd demo-npm-src/client; npm add --save-dev webpack
+  Time (abs ≡):         1.914 s               [User: 1.832 s, System: 0.206 s]
+ 
+Summary
+  'cd demo-npm-src/client; npm add --save-dev webpack' ran
+    2.21 times faster than 'cd demo-npm/src/client; npm remove webpack'
+Benchmark 1: cd demo-npm/src/client; npm remove webpack
+  Time (abs ≡):         4.210 s               [User: 5.805 s, System: 1.406 s]
+ 
+Benchmark 2: cd demo-npm-src/client; npm add --save-dev webpack
+  Time (abs ≡):         1.828 s               [User: 1.848 s, System: 0.202 s]
+ 
+Summary
+  'cd demo-npm-src/client; npm add --save-dev webpack' ran
+    2.30 times faster than 'cd demo-npm/src/client; npm remove webpack'
+Benchmark 1: cd demo-npm/src/client; npm remove webpack
+  Time (abs ≡):         4.169 s               [User: 5.770 s, System: 1.383 s]
+ 
+Benchmark 2: cd demo-npm-src/client; npm add --save-dev webpack
+  Time (abs ≡):         1.892 s               [User: 1.862 s, System: 0.208 s]
+ 
+Summary
+  'cd demo-npm-src/client; npm add --save-dev webpack' ran
+    2.20 times faster than 'cd demo-npm/src/client; npm remove webpack'
+Benchmark 1: cd demo-npm/src/client; npm remove webpack
+  Time (abs ≡):         4.174 s               [User: 5.246 s, System: 1.330 s]
+ 
+Benchmark 2: cd demo-npm-src/client; npm add --save-dev webpack
+  Time (abs ≡):         1.929 s               [User: 1.836 s, System: 0.206 s]
+ 
+Summary
+  'cd demo-npm-src/client; npm add --save-dev webpack' ran
+    2.16 times faster than 'cd demo-npm/src/client; npm remove webpack'
+Benchmark 1: cd demo-npm/src/client; npm remove webpack
+  Time (abs ≡):         4.249 s               [User: 5.785 s, System: 1.383 s]
+ 
+Benchmark 2: cd demo-npm-src/client; npm add --save-dev webpack
+  Time (abs ≡):         2.158 s               [User: 1.855 s, System: 0.214 s]
+ 
+Summary
+  'cd demo-npm-src/client; npm add --save-dev webpack' ran
+    1.97 times faster than 'cd demo-npm/src/client; npm remove webpack'
