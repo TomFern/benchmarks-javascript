@@ -1,0 +1,15 @@
+Benchmark 1: cd next-app; npm run build
+  Time (mean ± σ):      3.469 s ±  0.475 s    [User: 7.036 s, System: 0.815 s]
+  Range (min … max):    3.091 s …  5.752 s    50 runs
+
+  Warning: The first benchmarking run for this command was significantly slower than the rest (5.752 s). This could be caused by (filesystem) caches that were not filled until after the first run. You should consider using the '--warmup' option to fill those caches before the actual benchmark. Alternatively, use the '--prepare' option to clear the caches before each timing run.
+
+Benchmark 2: cd next-app; bun run build
+  Time (mean ± σ):      3.231 s ±  0.447 s    [User: 6.786 s, System: 0.761 s]
+  Range (min … max):    2.947 s …  5.208 s    50 runs
+
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet PC without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+
+Summary
+  'cd next-app; bun run build' ran
+    1.07 ± 0.21 times faster than 'cd next-app; npm run build'
