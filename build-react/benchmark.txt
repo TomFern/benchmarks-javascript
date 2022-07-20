@@ -1,0 +1,20 @@
+Benchmark 1: cd react-npx; npm run build
+  Time (mean ± σ):      3.319 s ±  0.184 s    [User: 7.976 s, System: 0.627 s]
+  Range (min … max):    3.187 s …  4.318 s    50 runs
+
+  Warning: The first benchmarking run for this command was significantly slower than the rest (4.318 s). This could be caused by (filesystem) caches that were not filled until after the first run. You should consider using the '--warmup' option to fill those caches before the actual benchmark. Alternatively, use the '--prepare' option to clear the caches before each timing run.
+
+Benchmark 2: cd react-bun; bun run react-scripts build
+  Time (mean ± σ):      2.856 s ±  0.152 s    [User: 4.161 s, System: 0.369 s]
+  Range (min … max):    2.737 s …  3.657 s    50 runs
+
+  Warning: The first benchmarking run for this command was significantly slower than the rest (3.657 s). This could be caused by (filesystem) caches that were not filled until after the first run. You should consider using the '--warmup' option to fill those caches before the actual benchmark. Alternatively, use the '--prepare' option to clear the caches before each timing run.
+
+Benchmark 3: cd react-deno; deno-create-react-app build
+  Time (mean ± σ):      1.672 s ±  0.268 s    [User: 4.017 s, System: 0.108 s]
+  Range (min … max):    1.490 s …  2.372 s    50 runs
+
+Summary
+  'cd react-deno; deno-create-react-app build' ran
+    1.71 ± 0.29 times faster than 'cd react-bun; bun run react-scripts build'
+    1.98 ± 0.34 times faster than 'cd react-npx; npm run build'

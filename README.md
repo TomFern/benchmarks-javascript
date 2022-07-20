@@ -25,6 +25,13 @@ Compare npm vs bun as a package manager. Create a basic React app with:
 - `npx create-react-app`
 - `bun create react && bun a react-scripts -d`
 
+### build-react
+
+Run the `react-scripts build` on a TypeScript React empty project. Compare Deno, Node and Bun:
+- `npm run build`
+- `bun run react-scripts build`
+- `deno-create-react-app build`
+
 ### build-next
 
 Create an empty Next project and try building it with:
