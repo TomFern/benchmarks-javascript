@@ -1,79 +1,128 @@
 bun:0.1.4
-[Tue Jul 19 2022 11:29:38 GMT-0300 (Argentina Standard Time)] INFO Requests: 0 (0%), requests per second: 0, mean latency: 0 ms
-[Tue Jul 19 2022 11:29:43 GMT-0300 (Argentina Standard Time)] INFO Requests: 224884 (22%), requests per second: 44996, mean latency: 0.2 ms
-[Tue Jul 19 2022 11:29:48 GMT-0300 (Argentina Standard Time)] INFO Requests: 456191 (46%), requests per second: 46264, mean latency: 0.2 ms
-[Tue Jul 19 2022 11:29:53 GMT-0300 (Argentina Standard Time)] INFO Requests: 688495 (69%), requests per second: 46328, mean latency: 0.2 ms
-[Tue Jul 19 2022 11:29:58 GMT-0300 (Argentina Standard Time)] INFO Requests: 897685 (90%), requests per second: 41956, mean latency: 0.2 ms
-[Tue Jul 19 2022 11:30:01 GMT-0300 (Argentina Standard Time)] INFO
-[Tue Jul 19 2022 11:30:01 GMT-0300 (Argentina Standard Time)] INFO Target URL:          http://localhost:3000
-[Tue Jul 19 2022 11:30:01 GMT-0300 (Argentina Standard Time)] INFO Max requests:        1000000
-[Tue Jul 19 2022 11:30:01 GMT-0300 (Argentina Standard Time)] INFO Concurrency level:   8
-[Tue Jul 19 2022 11:30:01 GMT-0300 (Argentina Standard Time)] INFO Agent:               keepalive
-[Tue Jul 19 2022 11:30:01 GMT-0300 (Argentina Standard Time)] INFO
-[Tue Jul 19 2022 11:30:01 GMT-0300 (Argentina Standard Time)] INFO Completed requests:  1000000
-[Tue Jul 19 2022 11:30:01 GMT-0300 (Argentina Standard Time)] INFO Total errors:        0
-[Tue Jul 19 2022 11:30:01 GMT-0300 (Argentina Standard Time)] INFO Total time:          22.209856209 s
-[Tue Jul 19 2022 11:30:01 GMT-0300 (Argentina Standard Time)] INFO Requests per second: 45025
-[Tue Jul 19 2022 11:30:01 GMT-0300 (Argentina Standard Time)] INFO Mean latency:        0.2 ms
-[Tue Jul 19 2022 11:30:01 GMT-0300 (Argentina Standard Time)] INFO
-[Tue Jul 19 2022 11:30:01 GMT-0300 (Argentina Standard Time)] INFO Percentage of the requests served within a certain time
-[Tue Jul 19 2022 11:30:01 GMT-0300 (Argentina Standard Time)] INFO   50%      1 ms
-[Tue Jul 19 2022 11:30:01 GMT-0300 (Argentina Standard Time)] INFO   90%      1 ms
-[Tue Jul 19 2022 11:30:01 GMT-0300 (Argentina Standard Time)] INFO   95%      1 ms
-[Tue Jul 19 2022 11:30:01 GMT-0300 (Argentina Standard Time)] INFO   99%      1 ms
-[Tue Jul 19 2022 11:30:01 GMT-0300 (Argentina Standard Time)] INFO  100%      101 ms (longest request)
+Summary:
+  Success rate:	1.0000
+  Total:	28.1823 secs
+  Slowest:	0.0126 secs
+  Fastest:	0.0000 secs
+  Average:	0.0007 secs
+  Requests/sec:	70966.6114
+
+  Total data:	116.35 MiB
+  Size/request:	61 B
+  Size/sec:	4.13 MiB
+
+Response time histogram:
+  0.000 [251]    |
+  0.000 [74421]  |■■
+  0.001 [932575] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.001 [547721] |■■■■■■■■■■■■■■■■■■
+  0.001 [164211] |■■■■■
+  0.001 [157964] |■■■■■
+  0.001 [79298]  |■■
+  0.002 [23248]  |
+  0.002 [6150]   |
+  0.002 [2742]   |
+  0.002 [11419]  |
+
+Latency distribution:
+  10% in 0.0005 secs
+  25% in 0.0005 secs
+  50% in 0.0006 secs
+  75% in 0.0008 secs
+  90% in 0.0011 secs
+  95% in 0.0012 secs
+  99% in 0.0016 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0015 secs, 0.0010 secs, 0.0019 secs
+  DNS-lookup:	0.0000 secs, 0.0000 secs, 0.0002 secs
+
+Status code distribution:
+  [200] 2000000 responses
 deno:deno 1.23.4 (release, aarch64-apple-darwin)
 v8 10.4.132.8
 typescript 4.7.4
+./run-benchmark.sh: line 21:  1152 Terminated: 15          bun run react-hello-world.jsx
 Listening on http://localhost:8080/
-./run-benchmark.sh: line 20: 46770 Terminated: 15          bun run react-hello-world.jsx
-[Tue Jul 19 2022 11:30:02 GMT-0300 (Argentina Standard Time)] INFO Requests: 0 (0%), requests per second: 0, mean latency: 0 ms
-[Tue Jul 19 2022 11:30:07 GMT-0300 (Argentina Standard Time)] INFO Requests: 180472 (18%), requests per second: 36109, mean latency: 0.2 ms
-[Tue Jul 19 2022 11:30:12 GMT-0300 (Argentina Standard Time)] INFO Requests: 366296 (37%), requests per second: 37167, mean latency: 0.2 ms
-[Tue Jul 19 2022 11:30:17 GMT-0300 (Argentina Standard Time)] INFO Requests: 553253 (55%), requests per second: 37393, mean latency: 0.2 ms
-[Tue Jul 19 2022 11:30:22 GMT-0300 (Argentina Standard Time)] INFO Requests: 728591 (73%), requests per second: 35066, mean latency: 0.2 ms
-[Tue Jul 19 2022 11:30:27 GMT-0300 (Argentina Standard Time)] INFO Requests: 910901 (91%), requests per second: 36465, mean latency: 0.2 ms
-[Tue Jul 19 2022 11:30:29 GMT-0300 (Argentina Standard Time)] INFO
-[Tue Jul 19 2022 11:30:29 GMT-0300 (Argentina Standard Time)] INFO Target URL:          http://localhost:8080
-[Tue Jul 19 2022 11:30:29 GMT-0300 (Argentina Standard Time)] INFO Max requests:        1000000
-[Tue Jul 19 2022 11:30:29 GMT-0300 (Argentina Standard Time)] INFO Concurrency level:   8
-[Tue Jul 19 2022 11:30:29 GMT-0300 (Argentina Standard Time)] INFO Agent:               keepalive
-[Tue Jul 19 2022 11:30:29 GMT-0300 (Argentina Standard Time)] INFO
-[Tue Jul 19 2022 11:30:29 GMT-0300 (Argentina Standard Time)] INFO Completed requests:  1000000
-[Tue Jul 19 2022 11:30:29 GMT-0300 (Argentina Standard Time)] INFO Total errors:        0
-[Tue Jul 19 2022 11:30:29 GMT-0300 (Argentina Standard Time)] INFO Total time:          27.400116709000002 s
-[Tue Jul 19 2022 11:30:29 GMT-0300 (Argentina Standard Time)] INFO Requests per second: 36496
-[Tue Jul 19 2022 11:30:29 GMT-0300 (Argentina Standard Time)] INFO Mean latency:        0.2 ms
-[Tue Jul 19 2022 11:30:29 GMT-0300 (Argentina Standard Time)] INFO
-[Tue Jul 19 2022 11:30:29 GMT-0300 (Argentina Standard Time)] INFO Percentage of the requests served within a certain time
-[Tue Jul 19 2022 11:30:29 GMT-0300 (Argentina Standard Time)] INFO   50%      1 ms
-[Tue Jul 19 2022 11:30:29 GMT-0300 (Argentina Standard Time)] INFO   90%      1 ms
-[Tue Jul 19 2022 11:30:29 GMT-0300 (Argentina Standard Time)] INFO   95%      1 ms
-[Tue Jul 19 2022 11:30:29 GMT-0300 (Argentina Standard Time)] INFO   99%      1 ms
-[Tue Jul 19 2022 11:30:29 GMT-0300 (Argentina Standard Time)] INFO  100%      88 ms (longest request)
+Summary:
+  Success rate:	1.0000
+  Total:	49.4997 secs
+  Slowest:	0.0476 secs
+  Fastest:	0.0003 secs
+  Average:	0.0012 secs
+  Requests/sec:	40404.3215
+
+  Total data:	116.35 MiB
+  Size/request:	61 B
+  Size/sec:	2.35 MiB
+
+Response time histogram:
+  0.001 [62]      |
+  0.001 [90947]   |■■
+  0.001 [1134059] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.002 [578260]  |■■■■■■■■■■■■■■■■
+  0.002 [138730]  |■■■
+  0.002 [36022]   |■
+  0.002 [11645]   |
+  0.003 [3158]    |
+  0.003 [711]     |
+  0.003 [336]     |
+  0.004 [6070]    |
+
+Latency distribution:
+  10% in 0.0010 secs
+  25% in 0.0011 secs
+  50% in 0.0012 secs
+  75% in 0.0013 secs
+  90% in 0.0015 secs
+  95% in 0.0017 secs
+  99% in 0.0022 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0014 secs, 0.0009 secs, 0.0018 secs
+  DNS-lookup:	0.0000 secs, 0.0000 secs, 0.0003 secs
+
+Status code distribution:
+  [200] 2000000 responses
 node:v16.16.0
-./run-benchmark.sh: line 26: 46943 Terminated: 15          deno run --allow-net react-hello-world.deno.jsx
-[Tue Jul 19 2022 11:30:31 GMT-0300 (Argentina Standard Time)] INFO Requests: 0 (0%), requests per second: 0, mean latency: 0 ms
-[Tue Jul 19 2022 11:30:36 GMT-0300 (Argentina Standard Time)] INFO Requests: 177453 (18%), requests per second: 35515, mean latency: 0.2 ms
-[Tue Jul 19 2022 11:30:41 GMT-0300 (Argentina Standard Time)] INFO Requests: 359524 (36%), requests per second: 36409, mean latency: 0.2 ms
-[Tue Jul 19 2022 11:30:46 GMT-0300 (Argentina Standard Time)] INFO Requests: 542894 (54%), requests per second: 36676, mean latency: 0.2 ms
-[Tue Jul 19 2022 11:30:51 GMT-0300 (Argentina Standard Time)] INFO Requests: 717154 (72%), requests per second: 34851, mean latency: 0.2 ms
-[Tue Jul 19 2022 11:30:56 GMT-0300 (Argentina Standard Time)] INFO Requests: 895513 (90%), requests per second: 35681, mean latency: 0.2 ms
-[Tue Jul 19 2022 11:30:58 GMT-0300 (Argentina Standard Time)] INFO
-[Tue Jul 19 2022 11:30:58 GMT-0300 (Argentina Standard Time)] INFO Target URL:          http://localhost:9080
-[Tue Jul 19 2022 11:30:58 GMT-0300 (Argentina Standard Time)] INFO Max requests:        1000000
-[Tue Jul 19 2022 11:30:58 GMT-0300 (Argentina Standard Time)] INFO Concurrency level:   8
-[Tue Jul 19 2022 11:30:58 GMT-0300 (Argentina Standard Time)] INFO Agent:               keepalive
-[Tue Jul 19 2022 11:30:58 GMT-0300 (Argentina Standard Time)] INFO
-[Tue Jul 19 2022 11:30:58 GMT-0300 (Argentina Standard Time)] INFO Completed requests:  1000000
-[Tue Jul 19 2022 11:30:58 GMT-0300 (Argentina Standard Time)] INFO Total errors:        0
-[Tue Jul 19 2022 11:30:58 GMT-0300 (Argentina Standard Time)] INFO Total time:          27.873011958 s
-[Tue Jul 19 2022 11:30:58 GMT-0300 (Argentina Standard Time)] INFO Requests per second: 35877
-[Tue Jul 19 2022 11:30:58 GMT-0300 (Argentina Standard Time)] INFO Mean latency:        0.2 ms
-[Tue Jul 19 2022 11:30:58 GMT-0300 (Argentina Standard Time)] INFO
-[Tue Jul 19 2022 11:30:58 GMT-0300 (Argentina Standard Time)] INFO Percentage of the requests served within a certain time
-[Tue Jul 19 2022 11:30:58 GMT-0300 (Argentina Standard Time)] INFO   50%      1 ms
-[Tue Jul 19 2022 11:30:58 GMT-0300 (Argentina Standard Time)] INFO   90%      1 ms
-[Tue Jul 19 2022 11:30:58 GMT-0300 (Argentina Standard Time)] INFO   95%      1 ms
-[Tue Jul 19 2022 11:30:58 GMT-0300 (Argentina Standard Time)] INFO   99%      1 ms
-[Tue Jul 19 2022 11:30:58 GMT-0300 (Argentina Standard Time)] INFO  100%      91 ms (longest request)
+./run-benchmark.sh: line 31:  1273 Terminated: 15          deno run --allow-net react-hello-world.deno.jsx
+Summary:
+  Success rate:	1.0000
+  Total:	59.1459 secs
+  Slowest:	0.0415 secs
+  Fastest:	0.0001 secs
+  Average:	0.0015 secs
+  Requests/sec:	33814.6748
+
+  Total data:	116.35 MiB
+  Size/request:	61 B
+  Size/sec:	1.97 MiB
+
+Response time histogram:
+  0.001 [1135]    |
+  0.001 [2202]    |
+  0.001 [387576]  |■■■■■■■■
+  0.002 [1439013] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.002 [89291]   |■
+  0.002 [7967]    |
+  0.003 [46690]   |■
+  0.003 [14255]   |
+  0.004 [2728]    |
+  0.004 [1138]    |
+  0.004 [8005]    |
+
+Latency distribution:
+  10% in 0.0013 secs
+  25% in 0.0013 secs
+  50% in 0.0014 secs
+  75% in 0.0015 secs
+  90% in 0.0017 secs
+  95% in 0.0019 secs
+  99% in 0.0030 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0016 secs, 0.0010 secs, 0.0019 secs
+  DNS-lookup:	0.0000 secs, 0.0000 secs, 0.0001 secs
+
+Status code distribution:
+  [200] 2000000 responses
