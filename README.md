@@ -40,12 +40,6 @@ Run the `react-scripts build` on a empty React (TypeScript template) project. Co
 - `bun run react-scripts build`
 - `deno-create-react-app build`
 
-### build-next
-
-Build an empty Next.js project using Node and Bun:
-- `npm run build`
-- `bun run build`
-
 ### unit-tests
 
 Run unit tests on server-side component of [semaphore-demo-javascript](https://github.com/semaphoreci-demos/semaphore-demo-javascript.git) demo.
