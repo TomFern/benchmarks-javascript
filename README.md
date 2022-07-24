@@ -7,7 +7,7 @@ Software benchmarked:
 - [Bun](https://bun.sh/) v0.1.4
 
 Tools used:
-- [Loadtest](https://www.npmjs.com/package/loadtest): v5.2.0
+- [oha](https://github.com/hatoo/oha): v0.5.3
 - [hyperfine](https://github.com/sharkdp/hyperfine): v1.14.0
 - [Semaphore CI/CD](https://semaphoreci.com/): running tests on [e1-standard-2](https://docs.semaphoreci.com/ci-cd-environment/machine-types/) and Ubuntu 20.04.
 - MacBook Pro M1 2020, MacOS 12.4
@@ -22,6 +22,10 @@ To run each benchmark:
 cd <test-folder>
 ./run-benchmark.sh
 ```
+
+### copy
+
+Copy 1GB file locally. Compare Deno, Node, cp, and Bun.
 
 ### create-react-app
 
